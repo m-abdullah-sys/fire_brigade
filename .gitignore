@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.env
+.env.*
+venv/
+.venv/
+venv.bak/
+ENV/
+env/
+.Python
+pyvenv.cfg
+.pytest_cache/
+.mypy_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.cache/
+.ipynb_checkpoints/
+
+# Raspberry Pi / system
+/run/pigpiod.pid
+
+# MicroPython / mpremote
+mpremote/
+*.mpy
+*.mpremote
+
+# Arduino / PlatformIO / Embedded
+*.elf
+*.bin
+*.hex
+*.eep
+*.map
+.pio/
+build/
+lib/.pio/
+*.a
+*.pioenvs/
+
+# Logs
+logs/
+*.log
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets / keys
+*.pem
+*.key
+*.crt
+*.env.local
+
+# Misc
+coverage/
+
+# Explicit: ignore archived firmware folder builds
+firmware/*.bin
+firmware/*.hex
